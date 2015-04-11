@@ -147,7 +147,7 @@ var TextureLoader = (function(){
 
 var WorldSynthesizer = (function(){
 	
-	var DEBUG = true;
+	var DEBUG = false;
 	
 	var _canvas, _engine, _scene, _track;
 	var CAM_CONTROLLABLE = true, LOCK_CAMERA = false;
