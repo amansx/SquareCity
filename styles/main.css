@@ -1,0 +1,50 @@
+html, body {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #eee;
+}
+
+.out{
+	width: 200px; height: 200px; 
+	position: absolute; 
+	z-index: 1;
+}
+
+.projContainer{
+	width: 900px; height: 500px; 
+	margin: 0 auto;
+	position: relative;
+}
+.projControls{
+	width: 400px; margin: 0 auto;
+	padding: 20px; 
+	text-align: center; 
+}
+#renderCanvas{ background: white;}
+.canvas {
+	position: absolute;
+	width: 100%; height: 100%;
+	touch-action: none;
+}
+
+#increaseVolume, #decreaseVolume{
+	width: 40px; height: 40px;
+	display: block; cursor: pointer;
+}
+
+#homebutton{
+	width: 40px; height: 40px;
+	display: inline-block; cursor: pointer;
+}
+
+#increaseVolume:active, #decreaseVolume:active{
+	background-color: #555;
+}
+
+
+#decreaseVolume{ background: #333 url(../images/vd.png) no-repeat center center;  float: left; background-size: 100%; }
+#increaseVolume{ background: #333 url(../images/vu.png) no-repeat center center;  float: right;background-size: 100%; }
+#homebutton{ background: #333 url(../images/home.png) no-repeat center center;  background-size: 100%; }

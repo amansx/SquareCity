@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Squares with BabylonJS</title>
+	<meta name="description" content="Square City Wingify">
+	<meta name="author" content="Amanpreet Singh | anixir.com | Wingify Square City"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="Anixir, Amanpreet Singh, Web Development, Cool Javascript, JavaScript, Frontend, Art, Wingify Square City BabylonJS"/>
+	<link rel="stylesheet" href="styles/reset.css" />
+	<link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+
+	<audio src="audio/bg.mp3" id="bgm" preload="auto">
+		<p>Your browser does not support the audio element </p>
+	</audio>
+	<div class="projContainer">
+		<canvas id="renderCanvas" class="canvas" ></canvas>
+		<canvas id="preloader" class="canvas" ></canvas>
+	</div>
+	<div class="projControls">
+		<span id="decreaseVolume" ></span>
+		<a href="http://anixir.com" id="homebutton"></a>
+		<span id="increaseVolume" ></span>
+	</div>
+
+<script src="lib/tween.js"></script>
+<script src="lib/babylon.js"></script>
+<script src="lib/meshmerge.js"></script>
+<script src="lib/hand.js"></script>
+<script src="scripts/main.js"></script>
+
+</body>
+</html>
